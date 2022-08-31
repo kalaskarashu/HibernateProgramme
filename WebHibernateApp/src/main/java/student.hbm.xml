@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hibernate-mapping>
+
+<class name="model.Student" table="student">
+<id name="rollno" column="RollNo"></id>
+<property name="name" column="Name"></property>
+<property name="div" column="Division"></property>
+<property name="marks" column="Marks"></property>
+</class>
+</hibernate-mapping>
